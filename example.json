@@ -1,0 +1,73 @@
+{
+    "files": [
+      {
+        "path": "src/main.py",
+        "language": "Python",
+        "content": "import os\n\ndef main():\n    print('Hello, World!')\n\nif __name__ == '__main__':\n    main()",
+        "size": 89
+      },
+      {
+        "path": "src/utils/helper.py",
+        "language": "Python",
+        "content": "def add(a, b):\n    return a + b\n",
+        "size": 32
+      },
+      {
+        "path": "web/index.js",
+        "language": "JavaScript",
+        "content": "console.log('Web App Running');",
+        "size": 32
+      }
+    ],
+    "project_structure": {
+      "directories": {
+        "src": {
+          "directories": {
+            "utils": {
+              "directories": {},
+              "files": ["helper.py"]
+            }
+          },
+          "files": ["main.py"]
+        },
+        "web": {
+          "directories": {},
+          "files": ["index.js"]
+        }
+      }
+    },
+    "languages": {
+      "Python": 2,
+      "JavaScript": 1
+    },
+    "git_info": {
+      "active_branch": "main",
+      "recent_commits": [
+        {
+          "hash": "a1b2c3d4",
+          "author": "John Doe",
+          "date": "2025-03-11T12:34:56",
+          "message": "Initial commit"
+        },
+        {
+          "hash": "e5f6g7h8",
+          "author": "Jane Smith",
+          "date": "2025-03-12T15:20:30",
+          "message": "Added helper functions"
+        }
+      ]
+    },
+    "key_components": [
+      {
+        "path": "src/main.py",
+        "type": "Core Component",
+        "language": "Python"
+      },
+      {
+        "path": "web/index.js",
+        "type": "Core Component",
+        "language": "JavaScript"
+      }
+    ]
+  }
+  

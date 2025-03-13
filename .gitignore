@@ -1,0 +1,6 @@
+generated_docs/
+source_code/
+.env
+__pycache__/
+*.zip
+
